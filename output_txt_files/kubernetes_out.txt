@@ -1,1 +1,8 @@
-<paste log output from Kubernetes-mediated prediction, here>
+(.devops) ➜  project-ml-microservice-kubernetes git:(master) ✗ ./run_kubernetes.sh
+pod/ml-predictions-app created
+NAME                 READY   STATUS              RESTARTS   AGE
+ml-predictions-app   0/1     ContainerCreating   0          0s
+pod/ml-predictions-app condition met
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
+Handling connection for 8000
