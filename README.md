@@ -1,4 +1,4 @@
-<include a CircleCI status badge, here>
+[![CircleCI](https://circleci.com/gh/ookiisan/project-ml-microservice-kubernetes.svg?style=shield)](https://app.circleci.com/pipelines/github/ookiisan/project-ml-microservice-kubernetes?branch=master)
 
 ## Project Overview
 
