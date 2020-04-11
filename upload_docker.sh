@@ -5,17 +5,14 @@
 
 # Step 1:
 # Create dockerpath
-export datetimestamp=$(date '+%Y%m%d%H%M%S')
 export imagename=ml-microservice-api
 export dockerpath=ookiisan/$imagename
 
 # Step 2:  
 # Authenticate & tag
 docker login
-docker tag $imagename $dockerpath:$datetimestamp
-docker tag $imagename $dockerpath:latest
+docker tag $imagename $dockerpath:1.0.0
 
 # Step 3:
 # Push image to a docker repository
-docker push $dockerpath:$datetimestamp
-docker push $dockerpath:latest
+docker push $dockerpath:1.0.0
