@@ -10,7 +10,7 @@ export dockerpath=ookiisan/$imagename
 
 # Step 2
 # Run the Docker Hub container with kubernetes
-kubectl run $appname --generator=run-pod/v1 --image=$dockerpath --port=80 --labels app=$appname
+kubectl run $appname --generator=run-pod/v1 --image=$dockerpath:1.0.0 --port=80 --labels app=$appname
 
 # Step 3:
 # List kubernetes pods
